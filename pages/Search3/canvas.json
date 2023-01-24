@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Search",
-    "slug": "search",
+    "name": "Search3",
+    "slug": "search3",
     "layouts": [
       {
         "viewMode": false,
@@ -1357,9 +1357,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Search3_Utils.refundedOrders",
+              "id": "Search3_getAllCustomers",
               "name": "getAllCustomers",
-              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -1368,9 +1367,8 @@
               "timeoutInMillisecond": 10000
             },
             {
-              "id": "Search3_Utils.refundedOrders",
+              "id": "Search3_getAllOrders",
               "name": "getAllOrders",
-              "collectionId": "Search3_Utils",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [
@@ -1382,7 +1380,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Search",
+        "id": "Search3",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -1393,5 +1391,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "63cfdc25a28754216d0ca595_63cfdc47a28754216d0ca5a0"
+  "gitSyncId": "63cfdc5ea28754216d0ca615_63cfdc74a28754216d0ca68a"
 }
